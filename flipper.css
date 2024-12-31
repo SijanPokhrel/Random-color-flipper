@@ -1,0 +1,22 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-center{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.btn{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.btn:hover{
+    border: 1px solid skyblue;
+    background-color: skyblue;
+}
